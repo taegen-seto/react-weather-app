@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import "./App.css";
 
 export default function Weather() {
   let weatherData = {
@@ -12,7 +13,7 @@ export default function Weather() {
   };
 
   return (
-    <div classNameName="Weather">
+    <div className="weather-app">
       <header>
         <form className="search-form">
           <input
