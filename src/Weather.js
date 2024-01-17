@@ -13,16 +13,26 @@ export default function Weather() {
   };
 
   return (
-    <div className="weather-app">
+    <div className="Weather">
       <header>
         <form className="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city..."
-            required
-            className="search-form-input"
-          />
-          <input type="submit" value="Search" className="search-form-button" />
+          <div className="row">
+            <div className="col-9">
+              <input
+                type="search"
+                placeholder="Enter a city..."
+                required
+                className="search-form-input"
+              />
+            </div>
+            <div className="col-3">
+              <input
+                type="submit"
+                value="Search"
+                className="search-form-button"
+              />
+            </div>
+          </div>
         </form>
       </header>
       <main>
