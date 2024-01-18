@@ -19,7 +19,7 @@
   background-color: #cadefc;
   border: none;
   border-radius: 7px;
-  width: 80%;
+  width: 100%;
   padding: 15px 20px;
   font-size: 16px;
 }
@@ -31,13 +31,15 @@
   color: white;
   margin-left: 5px;
   font-size: 16px;
+  width: 100%;
+  font-weight: 500;
 }
 .Weather .data {
   display: flex;
   justify-content: space-between;
 }
 .Weather .city {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 55px;
   line-height: 48px;
   font-family: "Shadows Into Light Two", cursive;
@@ -45,13 +47,14 @@
   font-weight: 600;
 }
 .Weather .details {
-  font-size: 16px;
+  font-size: 15px;
   color: #768590;
   line-height: 24px;
   font-weight: 500;
 }
 .Weather .date {
-  font-size: 19px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .Weather .details strong {
   color: #7b0699;

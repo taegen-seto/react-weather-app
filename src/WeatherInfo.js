@@ -13,7 +13,6 @@ export default function WeatherInfo(props) {
             <span className="date">
               <FormattedDate date={props.data.date} />
             </span>
-            <br />
             <span className="description"></span>
             {props.data.description}
             <br />
