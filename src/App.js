@@ -7,7 +7,6 @@ export default function App() {
   return (
     <div className="App">
       <Weather defaultCity="Madrid" />
-
       <footer>
         <a
           href="https://github.com/taegen-seto"
@@ -23,7 +22,6 @@ export default function App() {
         >
           open-sourced on GitHub 🐈‍⬛
         </a>
-
         <a
           href="https://creative-bienenstitch.netlify.app/"
           target="_blank"

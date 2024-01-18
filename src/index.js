@@ -1,9 +1,7 @@
 import React from "react";
-// import ReactDOM from "react-dom";
 
 import "./App.css";
 import "./Weather.css";
-// import axios from "axios";
 
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
