@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import FormattedDate from "./FormattedDate";
+
+import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 import "./App.css";
 import axios from "axios";
@@ -32,7 +33,7 @@ export default function Weather(props) {
 
   function search() {
     const apiKey = "7ed26a6948c661d05fafe7355b41b2ec";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -62,33 +63,7 @@ export default function Weather(props) {
             </div>
           </form>
         </header>
-        <main>
-          <div className="weather-app-data">
-            <div>
-              <h1 className="weather-app-city">{weatherData.city}</h1>
-              <p className="weather-app-details">
-                <span className="weather-app-date">
-                  <FormattedDate date={weatherData.date} />
-                </span>
-                <br />
-                <span className="weather-description"></span>
-                {weatherData.description}
-                <br />
-                humidity: <strong> {weatherData.humidity}% </strong>
-                wind: <strong> {weatherData.wind}km/hr </strong>
-              </p>
-            </div>
-
-            <div className="weather-app-temperature-container">
-              <div></div>
-              <div className="weather-app-temperature">
-                {Math.round(weatherData.temperature)}
-              </div>
-              <div className="weather-app-unit">°C</div>
-            </div>
-          </div>
-          <div className="weather-forecast"></div>
-        </main>
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {
