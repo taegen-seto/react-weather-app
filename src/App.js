@@ -5,7 +5,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
       <Weather />
 
       <footer>
@@ -14,19 +14,18 @@ export default function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Coded by Taegen Seto
+          coded by Taegen Seto 🖤
         </a>
-        🖤
         <a
-          href="https://github.com/taegen-seto/aplicacion-del-tiempo"
+          href="https://github.com/taegen-seto/react-weather-app"
           target="_blank"
           rel="noreferrer"
         >
-          open-sourced on GitHub
+          open-sourced on GitHub 🐈‍⬛
         </a>
-        🐈‍⬛
+
         <a
-          href="https://rad-ganache.netlify.app/"
+          href="https://creative-bienenstitch.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
