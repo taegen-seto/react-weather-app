@@ -65,17 +65,19 @@
   height: 66px;
   margin-right: 10px;
 }
-.Weather .weather-app-temperature {
+.Weather .temperature {
   font-size: 88px;
   line-height: 88px;
   color: #7b0699;
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 600;
+  margin-right: 15px;
 }
-.Weather .weather-app-unit {
-  margin-top: 6px;
+.Weather .unit {
   font-size: 28px;
   color: #7b0699;
+  position: relative;
+  top: -45px;
 }
 .Weather .weather-forecast {
   display: flex;
