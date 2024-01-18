@@ -60,16 +60,17 @@
 .Weather .weather-app-temperature-container {
   display: flex;
 }
-.Weather .weather-app-icon {
-  width: 88px;
-  height: 88px;
+.Weather canvas {
+  width: 66px;
+  height: 66px;
+  margin-right: 10px;
 }
 .Weather .weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
   color: #7b0699;
   font-family: "Shadows Into Light Two", cursive;
-  font-weight: 500;
+  font-weight: 600;
 }
 .Weather .weather-app-unit {
   margin-top: 6px;
