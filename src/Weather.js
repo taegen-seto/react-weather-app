@@ -40,15 +40,16 @@ export default function Weather() {
           <div>
             <h1 className="weather-app-city">{weatherData.city}</h1>
             <p className="weather-app-details">
-              <span className="weather-app-time">
-                Last Updated: {weatherData.date}
-              </span>
+              <span className="weather-app-time">{weatherData.date}</span>
               <br />
+              <span className="weather-description"></span>
               {weatherData.description}
               <br />
-              humidity: {weatherData.humidity}% wind: {weatherData.wind}km/hr
+              humidity: <strong> {weatherData.humidity}% </strong>
+              wind: <strong> {weatherData.wind}km/hr </strong>
             </p>
           </div>
+
           <div className="weather-app-temperature-container">
             <div></div>
             <div className="weather-app-temperature">
