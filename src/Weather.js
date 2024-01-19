@@ -5,6 +5,7 @@ import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 import "./App.css";
 import axios from "axios";
+import { BallTriangle } from "react-loader-spinner";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -71,6 +72,7 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return;
+    <BallTriangle height={100} width={100} color="#7b0699" />;
   }
 }

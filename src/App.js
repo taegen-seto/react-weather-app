@@ -13,21 +13,23 @@ export default function App() {
           target="_blank"
           rel="noreferrer"
         >
-          coded by Taegen Seto 🖤
+          <span>...coded by Taegen Seto...🖤... </span>
         </a>
+
         <a
           href="https://github.com/taegen-seto/react-weather-app"
           target="_blank"
           rel="noreferrer"
         >
-          open-sourced on GitHub 🐈‍⬛
+          <span>open-sourced on GitHub...🐈‍⬛...</span>
         </a>
+
         <a
           href="https://creative-bienenstitch.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
-          hosted on Netlify
+          <span>hosted on Netlify...</span>
         </a>
       </footer>
     </div>
