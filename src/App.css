@@ -19,3 +19,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #cadefc;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  padding-top: 45px;
+  height: 100%;
+}
