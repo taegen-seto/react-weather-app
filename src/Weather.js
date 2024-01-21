@@ -72,7 +72,15 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return;
-    <BallTriangle height={100} width={100} color="#7b0699" />;
+    return (
+      <BallTriangle
+        height={100}
+        width={100}
+        color="#7b0699"
+        wrapperStyle={{
+          justifyContent: "center",
+        }}
+      />
+    );
   }
 }
