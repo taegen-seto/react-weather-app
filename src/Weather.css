@@ -5,7 +5,6 @@
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 15px;
   padding: 30px;
-  /* background-color: #cbdefb; */
   font-family: "Poppins", sans-serif;
 }
 .Weather .WeatherInfo {
@@ -79,4 +78,46 @@
   color: #7b0699;
   position: relative;
   top: -45px;
+}
+@media (max-width: 900px) {
+  .Weather {
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .col-9 {
+    padding: 10px 0 0 10px;
+  }
+  .col-3 {
+    padding: 10px 15px 0 0;
+  }
+  .Weather .search-form-input {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .Weather .search-form-button {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .Weather .city {
+    font-size: 40px;
+    text-align: center;
+  }
+  .Weather .temperature-container {
+    justify-content: center;
+  }
+  .Weather .temperature {
+    font-size: 60px;
+  }
+  .Weather .unit {
+    font-size: 22px;
+  }
+  .Weather .data {
+    display: block;
+  }
+  .Weather .details {
+    text-align: center;
+  }
+  .Weather .WeatherInfo {
+    padding: 5px;
+  }
 }

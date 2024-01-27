@@ -6,30 +6,33 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <Weather defaultCity="Madrid" />
+      <Weather defaultCity="Brisbane" />
       <footer>
         <a
           href="https://github.com/taegen-seto"
           target="_blank"
+          title="github profile"
           rel="noreferrer"
         >
-          <span>...coded by Taegen Seto...🖤... </span>
+          coded by Taegen Seto 🖤
         </a>
-
         <a
           href="https://github.com/taegen-seto/react-weather-app"
           target="_blank"
+          title="github repository"
           rel="noreferrer"
         >
-          <span>open-sourced on GitHub...🐈‍⬛...</span>
+          {" "}
+          open-sourced on GitHub 🐈‍⬛
         </a>
-
         <a
           href="https://creative-bienenstitch.netlify.app/"
           target="_blank"
+          title="netlify site"
           rel="noreferrer"
         >
-          <span>hosted on Netlify...</span>
+          {" "}
+          hosted on Netlify
         </a>
       </footer>
     </div>

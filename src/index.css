@@ -7,7 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #cbdefb;
 }
-
 html,
 body {
   height: 100%;
@@ -15,7 +14,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 #root {
   height: 100%;
 }
