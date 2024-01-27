@@ -11,19 +11,23 @@
   padding: 30px 0;
 }
 .Weather header {
-  border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
 }
 .Weather .search-form-input {
-  background-color: #cadefc;
+  background-color: #aee9f7;
   border: none;
   border-radius: 7px;
   width: 100%;
   padding: 15px 20px;
   font-size: 16px;
 }
+::placeholder {
+  color: #9896f1;
+  font-size: 16px;
+  font-weight: 500;
+}
 .Weather .search-form-button {
-  background-color: #c808ad;
+  background-color: #9896f1;
   padding: 15px 30px;
   border: none;
   border-radius: 7px;
@@ -42,7 +46,7 @@
   font-size: 55px;
   line-height: 48px;
   font-family: "Shadows Into Light Two", cursive;
-  color: #7b0699;
+  color: #9896f1;
   font-weight: 600;
 }
 .Weather .details {
@@ -56,7 +60,7 @@
   font-weight: 600;
 }
 .Weather .details strong {
-  color: #7b0699;
+  color: #9896f1;
 }
 .Weather .temperature-container {
   display: flex;
@@ -68,14 +72,14 @@
 .Weather .temperature {
   font-size: 88px;
   line-height: 88px;
-  color: #7b0699;
+  color: #9896f1;
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 600;
   margin: 0 15px;
 }
 .Weather .unit {
   font-size: 28px;
-  color: #7b0699;
+  color: #9896f1;
   position: relative;
   top: -45px;
 }
@@ -91,6 +95,10 @@
     padding: 10px 15px 0 0;
   }
   .Weather .search-form-input {
+    padding: 5px;
+    font-size: 12px;
+  }
+  ::placeholder {
     padding: 5px;
     font-size: 12px;
   }
